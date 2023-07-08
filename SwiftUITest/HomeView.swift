@@ -23,10 +23,13 @@ struct HomeView: View {
                         VStack {
                             Text(item)
                             Text(item)
+                            
                         }
-                        Spacer()
-                        Text("Placeholder")
+                        NavigationLink(destination: Text("hello world")) {
+                            
+                        }
                     }
+                    
                 }
             }
             

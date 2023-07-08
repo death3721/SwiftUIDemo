@@ -17,13 +17,13 @@ struct TabbarView: View {
                         Text("首页")
                     }
             }.tag(1)
-//            TabBView()
-//                .tabItem {
-//                    VStack {
-//                        Image(systemName: "bold")
-//                        Text("TabB")
-//                    }
-//            }.tag(2)
+            WidgetCollection()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "square.grid.3x1.folder.badge.plus")
+                        Text("Collection")
+                    }
+            }.tag(2)
         }
     }
 }
