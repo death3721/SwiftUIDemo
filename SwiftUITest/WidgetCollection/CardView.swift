@@ -11,15 +11,18 @@ struct CardView: View {
     let title: String
     var body: some View {
         ZStack(alignment: .leading) {
-            RoundedRectangle(cornerRadius: 10).foregroundColor(.indigo)
+            RoundedRectangle(cornerRadius: 12).foregroundColor(.random)
            
             VStack(alignment: .leading) {
                 Spacer()
                 Text(title)
+                    .font(.title3)
+                    .fontWeight(.bold)
                     .frame(height: 20)
                     .colorInvert()
                     .padding(.leading, 10)
                 Text(title)
+                    .font(.body)
                     .colorInvert()
                     .frame(height: 20)
                     .padding([.leading, .bottom], 10)

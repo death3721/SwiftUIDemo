@@ -24,6 +24,13 @@ struct TabbarView: View {
                         Text("Collection")
                     }
             }.tag(2)
+            WidgetTableView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "square.grid.3x1.folder.badge.plus")
+                        Text("TableView")
+                    }
+            }.tag(3)
         }
     }
 }

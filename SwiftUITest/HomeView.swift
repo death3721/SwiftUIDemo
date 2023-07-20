@@ -39,7 +39,6 @@ struct HomeView: View {
             .toolbarBackground(.visible, for: .navigationBar)
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(
-                
                 leading:
                     Button {
                         print("Avatar")
