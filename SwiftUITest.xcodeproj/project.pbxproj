@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC12D5342A658CFB003B14F2 /* WidgetTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12D5332A658CFA003B14F2 /* WidgetTableView.swift */; };
+		BC12D5362A6AD07D003B14F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12D5352A6AD07D003B14F2 /* ProfileView.swift */; };
 		BC375F8A2A4B2D9C0096B3C1 /* SwiftUITestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC375F892A4B2D9C0096B3C1 /* SwiftUITestApp.swift */; };
 		BC375F8C2A4B2D9C0096B3C1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC375F8B2A4B2D9C0096B3C1 /* HomeView.swift */; };
 		BC375F8E2A4B2D9D0096B3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC375F8D2A4B2D9D0096B3C1 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		BC12D5332A658CFA003B14F2 /* WidgetTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTableView.swift; sourceTree = "<group>"; };
+		BC12D5352A6AD07D003B14F2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		BC375F862A4B2D9C0096B3C1 /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC375F892A4B2D9C0096B3C1 /* SwiftUITestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestApp.swift; sourceTree = "<group>"; };
 		BC375F8B2A4B2D9C0096B3C1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				BC375F892A4B2D9C0096B3C1 /* SwiftUITestApp.swift */,
 				BCBF7EA02A52764C00F6E828 /* TabbarView.swift */,
 				BC375F8B2A4B2D9C0096B3C1 /* HomeView.swift */,
+				BC12D5352A6AD07D003B14F2 /* ProfileView.swift */,
 				BCBF7EA22A52785400F6E828 /* MessageView.swift */,
 				BCBF7EAC2A59B5B800F6E828 /* WidgetCollection */,
 				BC375F8D2A4B2D9D0096B3C1 /* Assets.xcassets */,
@@ -186,6 +189,7 @@
 				BCBF7EA52A55B34400F6E828 /* WidgetCollection.swift in Sources */,
 				BC375F8A2A4B2D9C0096B3C1 /* SwiftUITestApp.swift in Sources */,
 				BC7442FA2A5EEC7A0097F47D /* Widget_Form.swift in Sources */,
+				BC12D5362A6AD07D003B14F2 /* ProfileView.swift in Sources */,
 				BC7442F82A5E5D3A0097F47D /* Widget_Section.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
